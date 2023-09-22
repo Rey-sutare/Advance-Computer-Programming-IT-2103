@@ -1,16 +1,9 @@
-print ("________________________________________________")
-name= input("Enter your name: ")
-age= int(input( "enter your age: "))
-address= input("enter your address: ")
-print ("________________________________________________")
-print ("\nUser Information:")
-print ("________________________________________________")
-print (" ")
-name= input("Enter your name: ")
-print( f"Age: {age}")
-print( f"Address: {address}")
-print ("________________________________________________")
+current_year = int(input("Enter the current year: ")) 
+birth_year = int(input("Enter your birth year: "))
 
+age = current_year - birth_year
+
+print(f"Your age in years is {age} years. ")
 
 
 
